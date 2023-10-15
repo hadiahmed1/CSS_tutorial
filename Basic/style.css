@@ -1,0 +1,65 @@
+*{ /*Universal Selector*/
+    background-color: rgb(38, 36, 36);
+}
+h2{ /*Element Selector*/
+    color: greenyellow;
+    background-color: black;
+}
+.red_white{/*Class Selctor*/
+    color: red;
+    background-color:white;
+}
+#btn1{/*id Selctor*/
+    font-size:xx-large;
+}
+#btn2{/*id Selctor*/
+    font-size:large;
+}
+/*Text Align*/
+/*Text Decoration*/
+/*Font Weight 100-900*/
+/*Font Family*/
+/*Absolute Units 96px = 1 inch*/
+/*Line Height*/
+/*Text transform*/
+p{
+    color: azure;
+    font-size: large;
+}
+#p1{
+    text-align: left;
+    text-decoration:wavy underline;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 10px;
+    text-transform: capitalize;
+}
+#p2{
+    text-align: right;
+    text-decoration:aquamarine underline;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;/*Fall Back Family*/
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+#p3{
+    text-align: center;
+    text-decoration: double;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: lowercase;
+}
+#p4{
+    text-decoration:dashed line-through;
+    text-align: justify;
+    font-weight: normal;
+    font-family: fantasy;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: none;
+}
+
