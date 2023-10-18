@@ -1,0 +1,31 @@
+div{
+    height: auto;
+    width:fit-content;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: end;
+    padding: 25px ;
+
+}
+p{
+    width: 500px;
+    padding: 10px;
+    /*Major Border Properties*/
+    /*border-width: 5px;
+    border-color: black;
+    border-style: double;*/
+    border: 5px double black;/*Short hand: width style color*/
+    border-radius:15px;
+    padding: 5px 10px 15px 20px;/*Clockwise: t r b l*/
+}
+/*
+    padding: between content and border
+    margin: between 2 boxes
+*/
+nav{
+    display: inline;
+}
+h2{
+    width: fit-content;
+    margin-right: 0;
+}

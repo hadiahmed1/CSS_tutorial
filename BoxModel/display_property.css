@@ -1,0 +1,29 @@
+*{
+    background-color: darkgrey;
+}
+div{
+    background-color: rgb(63, 59, 59);
+    color: azure;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#d1{
+    background-color:coral;
+}#d2{
+    background-color: skyblue;
+}
+#d3{
+    display: none;
+}#d4{
+    background-color:darkseagreen;
+}
+button{
+    display: block;
+    margin: 15px;
+}
