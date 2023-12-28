@@ -1,0 +1,22 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    border: 20px solid coral;
+    border-right: 20px solid black ;
+    animation: rotateBoundary steps(5) 3s infinite;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes rotateBoundary{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
